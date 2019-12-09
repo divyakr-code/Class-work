@@ -1,0 +1,23 @@
+html, body{
+    height: 100vh;
+    width: 100vw;
+    }
+    .grid-container1{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        height: 100%;
+        }
+        .grid-container2{ 
+        display: grid;
+        grid-template-columns: 50% 50%;
+        height: 100%;
+        }
+        .footer{
+        bottom: 0px;
+    width:100%;
+        }
+
+        div{
+            border: 1px solid black;
+        }
+

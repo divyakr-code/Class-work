@@ -1,0 +1,61 @@
+body{
+    background: linear-gradient(90deg, rgba(78,189,163,1) 26%, rgba(149,225,219,1) 67%, rgba(175,237,235,1) 100%);
+}
+
+.desktop{
+    display: inline-block;
+}
+
+.ipad{
+    display: none;
+}
+
+.img{
+    height: 550px;
+}
+.mobile{
+    display: none;
+}
+
+@media (max-width: 700px){
+    body{
+        background: linear-gradient(90deg, rgba(169,78,189,1) 26%, rgba(149,225,219,1) 67%, rgba(175,237,235,1) 100%);
+    }
+    .desktop{
+        display: none;
+    }
+    
+    .ipad{
+        display: none;
+    }
+    
+    .mobile{
+        display: inline-block;
+    }
+
+    .img{
+        height: 250px;
+    }
+}
+
+@media only screen and (min-device-width: 701px) and (max-device-width: 1024px) and (orientation:portrait) {
+    body{
+        background: linear-gradient(90deg, rgba(78,189,96,1) 26%, rgba(149,225,219,1) 67%, rgba(175,237,235,1) 100%);
+
+    }
+    .desktop{
+        display: none;
+    }
+    
+    .ipad{
+        display: inline-block;
+    }
+    
+    .mobile{
+        display: none;
+    }
+
+    .img{
+        height: 250px;
+    }
+  }
